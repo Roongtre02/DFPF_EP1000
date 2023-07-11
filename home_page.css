@@ -1,0 +1,269 @@
+@charset "utf-8";
+/* CSS Document */
+
+header
+{
+	position:absolute;
+	font-family:  'Helvetica Neue', sans-serif;
+	background: #fff;
+	top: 0;
+	left: 0;
+	width: 96%;
+	padding: 30px 35px;
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	z-index: 10000;
+}
+header ul
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header ul li
+{
+	list-style: none;
+	margin-left: 20px;
+}
+header ul li a
+{
+	text-decoration: none;
+	padding: 6px 25px;
+	color: #000000;
+	border-radius: 20px;
+}
+header ul li a:hover
+{
+	background: #f7ede3;
+	color: #000000;
+}
+section
+{
+	position: relative;
+	width: %;
+	height: 100vh;
+	padding: 100px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+section::before
+{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(to top,#f7ede3,transparent);
+	z-index: 1000;
+}
+section img
+{
+	position: absolute;
+	top: 10;
+	left: 0;
+	width: 100%;
+	height:80%;
+	object-fit: cover;
+}
+section img#building
+{
+	mix-blend-mode: screen;
+}
+#text01
+{
+	position: absolute;
+	font-family:  'Helvetica Neue', sans-serif;
+	color: #000000;
+	white-space: nowrap;
+	font-size: 7.0vw;
+	padding-top: 5%;
+	padding-left: 85%;
+	z-index: 9;
+}
+#text02
+{
+	position: absolute;
+	font-family:  'Helvetica Neue', sans-serif;
+	color: #000000;
+	white-space: nowrap;
+	font-size: 7.0vw;
+	padding-top: 20%;
+	padding-left: 62%;
+	z-index: 9;
+}
+.sec
+{
+	position: relative;
+	padding: 100px;
+	background: #f7ede3
+}
+.sec h2
+{
+	font-size: 3.5em;
+	margin-bottom: 10px;
+	color: #000000;
+}
+.sec p
+{
+	font-size: 1.2em;
+	color: #000000;
+}
+
+/*About Me*/
+title {	color: #f7ede3;
+}
+#about-background{	
+	background-color: #f7ede3;
+	display: flex;
+}
+.about-container {
+	margin-left: 10%;      
+	margin-right: 10%;
+	padding: 20px;    
+}
+.about-me {
+	margin-top: 200px;	
+	display: grid;
+	grid-template-columns: auto 1fr;	
+	gap: 20px;
+	align-items: center;
+}
+.about-text h1{
+	font-family: Gotha	color: #f33b3b;	
+	color: #f33b3b;
+	padding-left: 8.5%;
+
+}
+.about-text p{
+	font-family: Gotha	color: #f33b3b;	
+	color: #000000;
+	padding-left: 8.5%;
+}
+
+/*Project Development*/
+
+title {	color: #f7ede3;
+}
+#about-background{	
+	background-color: #f7ede3;
+	display: flex;
+}
+
+.container {
+	margin-top: 20%;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+}
+
+.column {
+	text-align: center;
+}
+
+.column img {
+	max-width: 80%;
+}
+
+.column h3 {
+	margin-top: 10px;
+}
+
+/*Weekly assignment*/
+
+/*div {
+	border: 2px solid #000000;
+	padding: 0.25%;
+}*/
+
+#assignment_background{	
+	display: flex;
+}
+
+.assignment_body {
+	position:absolute;
+}
+
+.assignment_container {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 20px;
+}
+
+.assignment_row{
+	display: flex;
+}
+
+.assignment_header {
+  text-align: left;
+  padding: 60px;
+}
+
+.assignment_header h1 {
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  color: #f33b3b;
+  margin: -10px;
+}
+
+.assignment_header h2 {
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 70px;
+  color: #f33b3b;
+  padding-left:58%;
+  margin: auto;
+}
+	
+.assignment_side h1{
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 250%;
+  color: #f33b3b;
+  width: 60%;
+  padding-left: 8.5%;
+  padding-top: 2.5%;
+}
+
+.assignment_side p{
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 100%;
+  color: black;
+  float:left;
+  width: 90%;
+  margin-top: -2%;
+  margin-left: 8.5%;
+  box-sizing: border-box;
+}
+
+.assignment_header1{
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 200%;
+  color: #f33b3b;
+  float: left;
+  width: 100%;
+  margin-left: 4%;
+  margin-right: 10%;
+  box-sizing: border-box;
+}
+
+.assignment_header2{
+	font-family: Gotham, 'Helvetica Neue', sans-serif;
+	font-size: 150%;
+	color: #f33b3b;
+	float: left;
+	width: 100%;
+	margin-left: 0%;
+	margin-right: 10%;
+	box-sizing: border-box;
+  }
+
+.assignment_info{
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 100%;
+  color: black;
+  float: left;
+  width: 95%;
+  margin-left: 4%;
+  box-sizing: border-box;
+}
+

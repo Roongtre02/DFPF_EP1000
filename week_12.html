@@ -1,0 +1,112 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>WEEK 12</title>
+<link href="home_page.css" rel="stylesheet" type="text/css">
+<style>
+    body, header {
+      background-color: #f7ede3;
+    }
+ </style>
+</head>
+
+<body>
+	<header>
+ 		<a href="project_development_assignment.html" class="logo">Back</a>
+	</header>
+		<div class="assignment_container">
+			<div class="assignment_row">
+				<div class="assignment_header">
+					<h1>WEEK</h1>
+					<h2>12</h2>
+				</div>
+				<div class="assignment_side">
+					<h1 >Embedded Programming 2, Sensors & Actuators</h1>
+					<p>This week, we are learning how to code different sensors that might be used in our final projects.</p>
+				</div>
+			</div>
+		</div>
+		<div class="assignment_body">
+			<div class="assignment_container">
+				<h2 class="assignment_header1">Input & Output </h2>
+					<div class="assignment_info">
+                            <p>Components that allows interaction with the eternal world.</p>
+                            <p>Enable the board to receive information from its surroundings (input) & send signals or perform actions (outputs) based on the programmed logic.</p>
+                            <p>Can identify them as sensors (input devices) & actuators (output devices).</p>
+                        <h3>Button and Switches</h3>
+                            <p>simple mechanical devices (detect user input), it can detect the change in electrival state & respond accordingly.</p>
+                        <h3>Sensors</h3>
+                            <p>Varies types: temperature sensors, light sensors, motion sensors, humidity sensors, etc.</p>
+                            <p>It can measure physical or environmental properties & provide corresponding electrical signals to Arduino.</p>
+                        <h3>Potentiometers</h3>
+                            <p>Adjustable resistors that allow the user to change the resistance by turning a knob or a slider.</p>
+                            <p>Arduino can read the varying resistance & use it as input, ex: control the brightness of an LED.</p>
+                        <h3>Common Input Devices</h3>
+                            <p>Type of sensors</p>
+                                <img src="../EP1000_TRE/image_source/wk12_00.png" alt="edit_image" width="650" height="300">
+
+				<h2 class="assignment_header1">Tinkercad exercises</h2>
+					<div class="assignment_info">
+						<h3>Exercise 17</h3>
+                            <p>Program a Matrix Keypad for keying information</p>
+                            <p>Task: program the buttons to tell the alphabet/figure in the serial monitor.</p> 
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/evEx9j13myd?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 18</h3>
+                            <p>Program a LDR photoresistor to Turn an LED on/off when it detexts a certain thresold value.</p>
+                            <p>Task: if the detected value is >200, LED is HIGH thus it will ight up, vice versal, if the value is < 200, LED will be LOW. Hence, it will not light up </p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/e1w8hKp8T8I?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 19</h3>    
+                            <p>Program an Ultrasonic Sensor to detect presents</p>
+                            <p>Task: if the detected someone within a certain distance, it will trigger an alarm/response, otherwise, it will be on default mode.</p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/23cjGrlHUsV?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 20</h3>
+                            <p>Program an PIR Motion Sensor to detect movement</p>
+                            <p>Task: If detected motion, it will add a count in the serial monitor</p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/23cjGrlHUsV?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 21</h3>
+                            <p>Program an Temperature Sensor to detect weather condition</p>
+                            <p>Task: it can detect temperature and light up the LEDs base on the temperature and show in the serial monitor. (use a Temperature sensor in tinkercad in the library since there is no DHT sensor) </p> 
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/5S8Amyjuco0?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 22</h3>
+                            <p>Program an Potentiometer to adjust LED Brightness</p>
+                            <p>Task: if the detected value is <1024, It will be LOW thus, the LED will not light up, vice versa if the value is >1023, then it will be HIGH hence the LED will light up</p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/5S8Amyjuco0?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 23</h3>    
+                            <p>Program LED to flash different colours</p>
+                            <p>Task: try to program the LED to flash a rainbow colour sequence.(use a multi-colour LED for this exercise)</p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/fHqwxcWOR4x?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 24</h3>
+                            <p>Program Neopixels to flash different colours</p>
+                            <p>Task: try to link up with multiple neopixels and program it to run flash different colours.</p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/egUBiFlfY3h?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 25</h3>
+                            <p>Program DC motor to turn with a potentiometer</p>
+                            <p>Task: Connect the DC motor with a transistor to act as a tap to control the electric signals and with a potentiometer to adjust the speed of the RPM. Read the values in the serial monitor.</p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/ljIG4kySJHN?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 26</h3>
+                            <p>Program a stepper motor to play with speed value</p>
+                            <p>Task: Connect the stepper motor and assign different steps per revolution and speed value.</p> 
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/ljIG4kySJHN?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 27</h3>
+                            <p>Program a servo motor to rotate in a positional motion.</p>
+                            <p>Task: Connect the servo motor and program it to rotate a certain angle/degree. The angle/degree will be stated in the serial monitor.</p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/4DlW9D7B6r7?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 28</h3>    
+                            <p>Program a servo motor to rotate continuously.</p>
+                            <p>Task: Connect the servo motor and program it to turn clockwise/ anti-clockwise, with speed variation and will be stated in the serial monitor. </p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/lLSjdSWTSiv?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+                        <h3>Exercise 29</h3>
+                            <p>Program LCD display to show output.</p>
+                            <p>Task: try to set the LCD address to 0x3F, 16 characters.</p>
+                                <img src="../EP1000_TRE/image_source/wk11_07.jpg" alt="export" width="350" height="350">
+                        <h3>Exercise 30</h3>
+                            <p>Program with a speaker</p>
+                            <p>Task: link up the speaker to the board and play a sound/alarm. (use a piezo instead of a speaker in tinkercad)</p>
+                            <iframe width="725" height="453" src="https://www.tinkercad.com/embed/kABaPpFii3C?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
