@@ -224,6 +224,15 @@ title {	color: #f7ede3;
   padding-top: 2.5%;
 }
 
+.assignment_side01 h1{
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 250%;
+  color: #f33b3b;
+  width: 60%;
+  padding-left: 10%;
+  padding-top: 5.5%;
+}
+
 .assignment_side p{
   font-family: Gotham, 'Helvetica Neue', sans-serif;
   font-size: 100%;
@@ -232,6 +241,17 @@ title {	color: #f7ede3;
   width: 90%;
   margin-top: -2%;
   margin-left: 8.5%;
+  box-sizing: border-box;
+}
+
+.assignment_side01 p{
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 100%;
+  color: black;
+  float:left;
+  width: 100%;
+  margin-top: -2%;
+  margin-left: 10%;
   box-sizing: border-box;
 }
 
