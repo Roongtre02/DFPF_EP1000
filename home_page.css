@@ -287,3 +287,66 @@ title {	color: #f7ede3;
   box-sizing: border-box;
 }
 
+/*Final Project*/
+  
+  /*.gallery {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+  }
+  
+  .gallery img {
+	max-width: 100%;
+	max-height: 100%;
+  }
+  
+  .arrow-button {
+	font-size: 24px;
+	cursor: pointer;
+  }*/
+
+.assignment_container_final {
+  margin-left: 3%;
+  margin-right: 3%;
+  padding: 20px;
+}
+
+.assignment_row_final {
+	display: flex;
+}
+
+.assignment_header_final {
+  text-align: left;
+  padding: 60px;
+}
+
+.assignment_header_final h1 {
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 50px;
+  color: #f33b3b;
+  margin: -10px;
+}
+
+.assignment_header_final h2 {
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 70px;
+  color: #f33b3b;
+  padding-left:20%;
+  margin: auto;
+}
+
+.assignment_side_final h1{
+  font-family: Gotham, 'Helvetica Neue', sans-serif;
+  font-size: 250%;
+  color: #f33b3b;
+  width: 60%;
+  padding-left: 8.5%;
+  padding-top: 5%;
+}
+
+footer {
+	color: #333;
+	text-align: center;
+	padding: 10px 0;
+  }

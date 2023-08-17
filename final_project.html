@@ -2,13 +2,179 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>FINAL PROJECT</title>
+<title>FINAL PROJECET</title>
+<link href="home_page.css" rel="stylesheet" type="text/css">
+<style>
+    body, header {
+      background-color: #f7ede3;
+    }
+ </style>
 </head>
+
 <body>
-<header>
-	<a href="project_development_assignment.html" class="logo">Back</a>
-</header>
-	<h1>FINAL PROJECT</h1>
-<body>
-</body>
-</html>
+	
+	<header>
+		<a href="project_development_assignment.html" class="logo">Back</a>
+	</header>
+	<div class="assignment_container_final">
+			<div class="assignment_row_final">
+				<div class="assignment_header_final">
+					<h1>FINAL</h1>
+					<h2>WEEK</h2>
+				</div>
+				<div class="assignment_side_final">
+					<h1>FINAL PROJECT | DEASY PAD</h1>
+				</div>
+			</div>
+	</div>
+	<div class="assignment_body">
+		<div class="assignment_container">
+			<h2 class="assignment_header1"> IDEATION </h2>
+				<div class="assignment_info">
+						<p>For my final project, I decided to make a keypad that is suitable for designers while using design software. It is a good start to understand how the keypad works and I would like to imply it on future product designs.</p>
+				</div>
+
+			<h2 class="assignment_header1"> CASING </h2>
+				<div class="assignment_info">
+					<h3>First Print</h3>
+						<p>I designed this keypad casing using Fusion 360 form tool.</p>
+						<p>3D model printed out using Creative Ender printing machine.</p>
+						<p><b>Top Casing</b> are printed by applying tree support to support the floating part of the model.</p>
+						<p>I also drew out the key switches, rotary encoder and joystick holes outline.</p>
+						<img src="../DFPF_EP1000/image_source/week13_00.jpg" alt="edit_image" width="200" height="250">
+						<img src="../DFPF_EP1000/image_source/week13_04.jpg" alt="edit_image" width="250" height="250">
+						<img src="../DFPF_EP1000/image_source/week13_01.jpg" alt="free_select_tool" width="200" height="250">
+						<img src="../DFPF_EP1000/image_source/week13_03.jpg" alt="free_select_tool" width="200" height="250">
+						<img src="../DFPF_EP1000/image_source/week13_05.png" alt="invert" width="300" height="250">	
+						<img src="../DFPF_EP1000/image_source/week13_06.jpg" alt="invert" width="200" height="250">
+					<h3>Second Print</h3>
+						<p>I make the model smaller in size and added hand palm rest support on the casing surface.</p>
+						<p>Keycap, Rotary encoder and joystick holes are cut. Some of the keycap holes need to have minor adjustment.</p>
+						<p>The palm rest support is at a weird position, hence it doesn't feel comfortable when placing hand on top</p>
+						<img src="../DFPF_EP1000/image_source/finalproj_sec01.jpg" alt="edit_image" width="200" height="250">
+						<img src="../DFPF_EP1000/image_source/finalproj_sec02.jpg" alt="edit_image" width="200" height="250">
+						<img src="../DFPF_EP1000/image_source/finalproj_sec03.jpg" alt="free_select_tool" width="200" height="250">
+					<h3>Third Print</h3>
+						<p>Final model casing printed out</p>
+						<img src="../DFPF_EP1000/image_source/finalproj_third01.jpg" alt="edit_image" width="200" height="250">
+						<img src="../DFPF_EP1000/image_source/finalproj_third02.jpg" alt="edit_image" width="200" height="250">
+						<img src="../DFPF_EP1000/image_source/finalproj_third03.jpg" alt="free_select_tool" width="200" height="250">
+						<img src="../DFPF_EP1000/image_source/finalproj_third04.jpg" alt="edit_image" width="200" height="250">
+				</div>
+	<!-- *<head>
+		<style>
+			body02 {
+				text-align: center;
+			}
+		</style>
+	</head>
+	<body02>
+		<div class="gallery">
+		<button class="arrow-button" id="prevBtn">&larr;</button>
+		<img id="image" src="../DFPF_EP1000/image_source/week13_00.jpg" alt="Image">
+		<button class="arrow-button" id="nextBtn">&rarr;</button>
+		</div>
+	
+		<script>
+		const images = ["../DFPF_EP1000/image_source/week13_04.jpg", "../DFPF_EP1000/image_source/week13_01.jpg", "../DFPF_EP1000/image_source/week13_02.jpg","../DFPF_EP1000/image_source/week13_05.jpg", "../DFPF_EP1000/image_source/week13_06.png"]; // Replace with your image URLs
+		let currentImage = 0;
+
+		const prevButton = document.getElementById("prevBtn");
+		const nextButton = document.getElementById("nextBtn");
+		const imageElement = document.getElementById("image");
+	
+		prevButton.addEventListener("click", () => {
+			currentImage = (currentImage - 1 + images.length) % images.length;
+			updateImage();
+		});
+	
+		nextButton.addEventListener("click", () => {
+			currentImage = (currentImage + 1) % images.length;
+			updateImage();
+		});
+	
+		function updateImage() {
+			imageElement.src = images[currentImage];
+		}
+		</script>
+	</body02>
+	</html> -->
+
+	<h2 class="assignment_header1"> Hardware List</h2>
+		<div class="assignment_info">
+				<p>1. Arduino pro micro</p>
+				<p>2. Assorted hookup wires</p>
+				<p>3. LED strip - WS 2812B </p>
+				<p>4. Joy Stick</p>
+				<p>5. Rotary Encoder - Volume Switch </p>
+				<p>6. Mirror Board </p>
+				<p>7. m12 screw nut </p>
+				<p>8. Key switches </p>
+				<p>9. Key cap </p>
+		</div>
+
+	<h2 class="assignment_header1"> ELECTRONIC </h2>
+		<div class="assignment_info">
+			<h3>Rotary Encoder</h3>
+				<p>I connected rotary encoder to arduino pro micro using female and male wire.</p>
+					<img src="../DFPF_EP1000/image_source/electronic04.jpg.png" alt="edit_image" width="350" height="225">
+					
+			<h3>Joystick</h3>
+				<p>I connected rotary encoder to arduino pro micro using female and male wire.</p>
+					<img src="../DFPF_EP1000/image_source/electronic05.png" alt="edit_image" width="350" height="225">
+				
+			<h3>LED strip light - Neo Pixel Strip</h3>
+				<p>I cut the Male part and soldered it on the LED strip as shown below</p>
+					<img src="../DFPF_EP1000/image_source/electronic06.png" alt="edit_image" width="350" height="225">
+					<img src="../DFPF_EP1000/image_source/electronic07.jpg" alt="edit_image" width="150" height="225">
+					
+			<h3>Switches</h3>
+				<p>I soldered pin header to GND to allow all switches connecting to GND. </p>
+					<img src="../DFPF_EP1000/image_source/electronic02.jpg" alt="edit_image" width="300" height="250">
+					<img src="../DFPF_EP1000/image_source/electronic03.jpg" alt="edit_image" width="300" height="250">
+		</div>
+
+	<h2 class="assignment_header1"> ASSEMBLE </h2>
+		<div class="assignment_info">
+			<p>All elements are placed nicely at designated spot. I tape the led strip light as the wires are too long and shorten the switches wire. </p>
+			<p>I use m12 nut to connect the top and bottom casing. Lastly, place the keycap on switches as well as joystick and rotary encoder cover.</p>
+				<img src="../DFPF_EP1000/image_source/assemble_02.jpg" alt="edit_image" width="300" height="300">
+				<img src="../DFPF_EP1000/image_source/assemble_03.jpg" alt="edit_image" width="300" height="300">
+				<img src="../DFPF_EP1000/image_source/assemble_01.jpg" alt="edit_image" width="300" height="300">
+				<img src="../DFPF_EP1000/image_source/assemble_08.jpg" alt="edit_image" width="300" height="300">
+				<img src="../DFPF_EP1000/image_source/assemble_04.jpg" alt="edit_image" width="300" height="300">
+				<img src="../DFPF_EP1000/image_source/assemble_05.jpg" alt="edit_image" width="300" height="300">		
+		</div>
+
+	<h2 class="assignment_header1"> BILLS OF MATERIAL </h2>
+		<div class="assignment_info">
+				<img src="../DFPF_EP1000/image_source/costing.png" alt="edit_image" width="550" height="450">
+		</div>
+
+	<h2 class="assignment_header1"> MODEL | FUSION 360 </h2>
+		<div class="assignment_info">
+			<iframe src="https://ichat4108.autodesk360.com/shares/public/SHd38bfQT1fb47330c9936fea45d293dfd1d?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>
+		</div>
+
+	<h2 class="assignment_header1"> CODING </h2>
+		<div class="assignment_info">
+			<iframe src=https://create.arduino.cc/editor/roongtre/f4d8f8be-63b4-4f53-b798-2e512d0f8476/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+		</div>
+
+	<h2 class="assignment_header1"> VIDEO </h2>
+		<div class="assignment_info">
+			<video width="620" height="540" controls>
+				<source src="../DFPF_EP1000/image_source/final_project_video.mp4" type="video/mp4">
+			</video>
+		</div>
+
+	<h2 class="assignment_header1"> PRESENTATION POSTER </h2>
+		<div class="assignment_info">
+			<img src="../DFPF_EP1000/image_source/poster.png" alt="edit_image" width="1020" height="697">
+			
+		</div>
+
+	<footer>
+		&copy; 2023 My Website. All rights reserved.
+	</footer>
+							
